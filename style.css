@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	background: url("data/ridge.jpg") repeat fixed;
+}
+
+#menu {
+	font-size: 18px;
+	position: fixed;
+	margin-left: 2em;
+	max-width: 3em;
+	
+	text-align: center;
+}
+
+#menu a {
+	text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
+	text-decoration: none;
+	color: white;
+}
+
+.menu-item {
+	transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	
+	width: 6em;
+	
+	border-style: solid;
+	border-width: 0.5em 0;
+	border-color: white;
+	
+	margin: 150% -50%;
+}
+
+#up {
+	font-size: 1.5em;
+	margin-top: 0.3em;
+	margin-bottom: -1em;
+}
+
+.section {
+	font-size: 18px;
+	
+	margin-left: 2em;
+	padding: 0;
+	min-height: 100%;
+	
+	border-style: solid;
+	border-width: 0 1em 0 3em;
+	border-color: gray transparent;
+}
+
+.section a {
+	float: left;
+}
+
+.content {
+	border: 1px solid gray;
+	height: 100%;
+	padding: 3% 10%;
+}
+
+.title {
+	font-size: 2.5em;
+	margin: 0.3em;
+	border-bottom: 1px solid black;
+	padding: 0 0.5em;
+}
+
+.green {
+	border-color: #3CB371;
+}
+
+.cyan {
+	border-color: #00BBAA;
+}
+
+.blue {
+	border-color: #191970;
+}
+
+.purple {
+	border-color: #8B008B;
+}
+
+.intro {
+	background: url("data/01.jpg") center fixed;
+	background-size:  cover;
+	
+	text-align: center;
+	font-size: 18px;
+	margin-left: 2em;
+}
+
+.greeting {
+	margin: 20%;
+	display: inline-block;
+	
+	font-size: 1.3em;
+	font-family: serif;
+	
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: white;
+}
+
+.greeting h1 {
+	padding: 0.1em;
+	margin: 0.18em;
+	border-bottom: 1px solid black;
+}
+
+.profile {
+	background: #fafafa;
+}

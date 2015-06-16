@@ -1,1 +1,104 @@
-Hiya!
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stas Erema - Rsume</title>
+<meta charset="UTF-8" />
+<link rel='stylesheet' type='text/css' href='style.css' />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(
+				function() {
+					if (location.pathname.replace(/^\//, '') == this.pathname
+							.replace(/^\//, '')
+							&& location.hostname == this.hostname) {
+
+						var target = $(this.hash);
+						target = target.length ? target : $('[name='
+								+ this.hash.slice(1) + ']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop : target.offset().top
+							}, 1000);
+							return false;
+						}
+					}
+				});
+	});
+</script>
+</head>
+<body>
+	<div id="menu">
+		<div id="up">
+			<a href="#intro">^</a>
+		</div>
+		<div class="menu-item rotate green">
+			<a href="#profile">PROFILE</a>
+		</div>
+		<div class="menu-item rotate cyan">
+			<a href="#abilities">ABILITIES</a>
+		</div>
+		<div class="menu-item rotate blue">
+			<a href="#projects">PROJECTS</a>
+		</div>
+		<div class="menu-item rotate purple">
+			<a href="#contact">CONTACT</a>
+		</div>
+	</div>
+
+	<div class="content intro">
+		<div class="section">
+			<a id="intro">&nbsp;</a>
+			<div class="greeting">
+				<h1>Stas Erema</h1>
+				<h3>junior java developer</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="section green">
+		<a id="profile">&nbsp;</a>
+		<div class="content profile">
+			<h2 class="title">Profile</h2>
+			<div class="info">
+				<div class="logo">
+					<img src="data/logo.jpg" alt="logo goes here" />
+				</div>
+				<h2>Details</h2>
+				details section
+			</div>
+			<div class="about-me">
+				<h2>About me</h2>
+				about me lots of info will go here
+			</div>
+		</div>
+	</div>
+
+	<div class="section cyan">
+		<a id="abilities">&nbsp;</a>
+		<div class="content abilities">
+			<h2 class="title">Abilities</h2>
+			<p>abilities section</p>
+		</div>
+	</div>
+
+	<div class="section blue">
+		<a id="projects">&nbsp;</a>
+		<div class="content projects">
+			<h2 class="title">Projects</h2>
+			<p>projects section</p>
+		</div>
+	</div>
+
+	<div class="section purple">
+		<a id="contact">&nbsp;</a>
+		<div class="content contact">
+			<h2 class="title">Contact</h2>
+			<p>contact section</p>
+		</div>
+	</div>
+
+</body>
+</html>
