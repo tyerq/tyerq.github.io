@@ -4,6 +4,7 @@
 
 html, body {
 	height: 100%;
+	min-height: 100%;
 	background: url("data/ridge.jpg") repeat fixed;
 }
 
@@ -12,7 +13,6 @@ html, body {
 	position: fixed;
 	margin-left: 2em;
 	max-width: 3em;
-	
 	text-align: center;
 }
 
@@ -24,15 +24,12 @@ html, body {
 
 .menu-item {
 	transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-	
+	-ms-transform: rotate(-90deg); /* IE 9 */
+	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
 	width: 6em;
-	
 	border-style: solid;
 	border-width: 0.5em 0;
 	border-color: white;
-	
 	margin: 150% -50%;
 }
 
@@ -44,15 +41,13 @@ html, body {
 
 .section {
 	font-size: 18px;
-	
 	margin-left: 2em;
 	padding: 0;
-	height: 100%;
-	overflow: hidden;
-	
-	border-style: solid;
+	min-height: 100%;
+	overflow: hidden; border-style : solid;
 	border-width: 0 1em 0 3em;
 	border-color: gray transparent;
+	border-style: solid;
 }
 
 .section a {
@@ -62,7 +57,7 @@ html, body {
 .content {
 	border: 1px solid gray;
 	padding: 0 10%;
-	height: 100%;
+	min-height: 100%;
 }
 
 .title {
@@ -91,8 +86,7 @@ html, body {
 
 .intro {
 	background: url("data/01.jpg") center fixed;
-	background-size:  cover;
-	
+	background-size: cover;
 	text-align: center;
 	font-size: 18px;
 	margin-left: 2em;
@@ -101,10 +95,8 @@ html, body {
 .greeting {
 	margin: 20%;
 	display: inline-block;
-	
 	font-size: 1.3em;
 	font-family: serif;
-	
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	color: white;
 }
@@ -117,23 +109,22 @@ html, body {
 
 .profile {
 	background: #fafafa;
-	padding-bottom: 3em;
+	padding-bottom: 10%;
 }
 
 .info {
 	display: inline-block;
 	width: 45%;
-	min-height: 100%;
+	min-height: 75%;
 	border-right: 1px solid black;
 }
 
 .logo {
 	display: block;
 	width: 60%;
-	margin: auto; 
-	
+	margin: auto;
 	border: 5px solid gray;
-	border-radius: 35%;
+	border-radius: 100%;
 }
 
 .category {
@@ -157,4 +148,57 @@ html, body {
 .about-me p {
 	margin-left: 3em;
 	margin-right: 6em;
+}
+
+.abilities {
+	background: #ddd;
+	padding-left: 10%;
+	padding-bottom: 5%;
+}
+
+.horizontal {
+	margin: 0 3em;
+	border-right: 1px solid black;
+}
+
+.rating {
+	margin: 0.5em 0;
+	margin-left: 2em;
+	padding: 0 0.3em;
+	display: inline-block;
+	width: 42%;
+	text-decoration: underline;
+	color: #222;
+}
+
+.rating:HOVER {
+	border-bottom: 1px solid #222;
+	padding-bottom: 5px;
+	margin-bottom: -6px;
+}
+
+.spacer{
+	margin: 0.5em 0;
+	display: inline-block;
+	width: 1px;
+}
+
+.bullets {
+	display: inline-block;
+	float: right;
+	text-align: right;
+}
+
+.bullet {
+	height: 1.2em;
+	float: left;
+}
+
+.projects {
+	background: #fafafa;
+	padding-bottom: 10%;
+}
+
+.box {
+	
 }

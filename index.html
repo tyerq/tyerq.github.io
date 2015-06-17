@@ -4,29 +4,9 @@
 <title>Stas Erema - Résumé</title>
 <meta charset="UTF-8" />
 <link rel='stylesheet' type='text/css' href='style.css' />
-<script
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="script.js">
 
-<script>
-	$(function() {
-		$('a[href*=#]:not([href=#])').click(
-				function() {
-					if (location.pathname.replace(/^\//, '') == this.pathname
-							.replace(/^\//, '')
-							&& location.hostname == this.hostname) {
-
-						var target = $(this.hash);
-						target = target.length ? target : $('[name='
-								+ this.hash.slice(1) + ']');
-						if (target.length) {
-							$('html,body').animate({
-								scrollTop : target.offset().top
-							}, 1000);
-							return false;
-						}
-					}
-				});
-	});
 </script>
 </head>
 <body>
@@ -77,12 +57,13 @@
 			</div>
 			<div class="about-me">
 				<h2 class="title">About me</h2>
-				<p>Hello! I am a beginner java developer, ending my second year at Kyiv-Mohyla Academy, 
-				Faculty of Informatics, program engineering. I am really passionate about computer sciences.
-				For me programming isn't just coding, but rather solving problems through code. I am good at 
-				English (Upper-Intermediate), I can read technical documentation freely. I am a team-player 
-				and all into learning from more experienced people.
-				</p>
+				<p>Hello! I am a beginner java developer, ending my second year
+					at Kyiv-Mohyla Academy, Faculty of Informatics, program
+					engineering. I am really passionate about computer sciences. For me
+					programming isn't just coding, but rather solving problems through
+					code. I am good at English (Upper-Intermediate), I can read
+					technical documentation freely. I am a team-player and all into
+					learning from more experienced people.</p>
 			</div>
 		</div>
 	</div>
@@ -91,8 +72,64 @@
 		<a id="abilities">&nbsp;</a>
 		<div class="content abilities">
 			<h1 class="title">Abilities</h1>
-				<h2 class="title">Skills</h2>
-			<p>abilities section</p>
+			<div class="horizontal">
+				<h2 class="title">Technologies</h2>
+				<div class="rating">
+					OOP paradigm: <div class="bullets"> <pl> <pl> <pl> <pl> <pl> <mn> </div>
+				</div>
+				<div class="rating">
+					Command Line: <div class="bullets"> <pl> <pl> <pl> <pl> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					Java: <div class="bullets"> <pl> <pl> <pl> <pl> <pl> <mn> </div>
+				</div>
+				<div class="rating">
+					HTML: <div class="bullets"> <pl> <pl> <pl> <mn> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					Linux: <div class="bullets"> <pl> <pl> <pl> <pl> <pl> <mn> </div>
+				</div>
+				<div class="rating">
+					CSS: <div class="bullets"> <pl> <pl> <pl> <mn> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					C/C++: <div class="bullets"> <pl> <pl> <pl> <pl> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					Git: <div class="bullets"> <pl> <pl> <pl> <mn> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					JavaScript: <div class="bullets"> <pl> <pl> <pl> <pl> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					NoSQL: <div class="bullets"> <pl> <pl> <mn> <mn> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					Multilayered arch. : <div class="bullets"> <pl> <pl> <pl> <pl> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					Python: <div class="bullets"> <pl> <pl> <mn> <mn> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					MVC Pattern: <div class="bullets"> <pl> <pl> <pl> <pl> <mn> <mn> </div>
+				</div>
+				<div class="rating">
+					PHP: <div class="bullets"> <pl> <mn> <mn> <mn> <mn> <mn> </div>
+				</div>
+			</div>
+			<div class="box">
+				<h2 class="title">Languages</h2>
+				<div class="rating">
+					Ukrainian: <div class="bullets"> <pl> <pl> <pl> <pl> <pl> <pl> </div>
+				</div>
+				<div class="rating">
+					Russian: <div class="bullets"> <pl> <pl> <pl> <pl> <pl> <pl> </div>
+				</div>
+				<div class="rating">
+					English: <div class="bullets"> <pl> <pl> <pl> <pl> <pl> <mn> </div>
+				</div>
+				<div class="spacer">&nbsp;</div>
+			</div>
 		</div>
 	</div>
 
@@ -100,7 +137,7 @@
 		<a id="projects">&nbsp;</a>
 		<div class="content projects">
 			<h1 class="title">Projects</h1>
-			<p>projects section</p>
+			
 		</div>
 	</div>
 
