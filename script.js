@@ -2,6 +2,9 @@
  * 
  */
 
+	/**
+	 * smooth scroll on menu click;
+	 */
 	$(function() {
 		$('a[href*=#]:not([href=#])').click(
 				function() {
@@ -22,6 +25,10 @@
 				});
 	});
 	
+	
+	/**
+	 * replace textual bullets in rating section in source with images.
+	 */
 	$(function() {
 		var bullets = $("div.rating").toArray();
 		for(var i=0; i<bullets.length; i++){
