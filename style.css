@@ -226,26 +226,23 @@ html, body {
 	margin-left: -0.5em;
 }
 
-.link {
+.git {
 	float: right;
 	height: 4em;
 	width: 4em;
-	
 	margin: -3.5em -3.2em;
 }
 
-.link img {
+.git img {
 	width: 100%;
 }
 
-.tags{
+.tags {
 	border: solid black;
 	border-width: 1px 0;
-	
 	margin: 0.5em -1em;
 	padding: 0.1em;
-	
-	font-size: 0.8em;
+	font-size: 0.75em;
 	text-align: center;
 }
 
@@ -254,12 +251,59 @@ html, body {
 	padding: 0.2em;
 	margin: 0.2em 0.25em;
 	border-radius: 0.2em;
-	
 	background-color: #4169E1;
+	font-weight: bold;
 	color: white;
 }
 
 .contact {
 	background: #ddd;
-	padding: 0 7%;
+	padding: 0 7% 7% 0;
+}
+
+.center {
+	padding: 5% 25%;
+}
+
+.center img {
+	float: left;
+	clear: both;
+	display: inline-block;
+	height: 2em;
+	width: 2em;
+	margin: 0.5em -2em 0.5em 0;
+	background-color: #639;
+	border: 2px solid transparent;
+	border-radius: 5px;
+}
+
+.slider {
+	float: left;
+	display: block;
+	transition: width 0.5s ease;
+	height: 2em;
+	width: 2em;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin: 0.5em 0 0.5em -2px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.slider:HOVER {
+	width: 90%;
+}
+
+.link {
+	color: black;
+	display: inline-block;
+	margin: 0.4em;
+	margin-left: 3.6em;
+	font-size: 1em;
+}
+
+.link:HOVER {
+	text-decoration: underline;
 }
