@@ -116,6 +116,7 @@ html, body {
 }
 
 .info {
+	float: left;
 	display: inline-block;
 	width: 45%;
 	min-height: 75%;
@@ -143,8 +144,8 @@ html, body {
 }
 
 .about-me {
-	float: right;
-	display: block;
+	float: left;
+	display: inline-block;
 	width: 54.9%;
 }
 
@@ -165,11 +166,12 @@ html, body {
 }
 
 .rating {
-	margin: 0.2em 0;
+	margin: 0.2em;
 	margin-left: 2em;
+	margin-right: 60%;
 	padding: 0.3em;
 	display: inline-block;
-	width: 42%;
+	width: 25%;
 	color: #222;
 }
 
@@ -184,7 +186,8 @@ html, body {
 }
 
 .bullets {
-	display: inline-block;
+	display: none;
+	/*display: inline-block;*/
 	float: right;
 	text-align: right;
 }
@@ -192,6 +195,7 @@ html, body {
 .bullet {
 	height: 1.2em;
 	float: left;
+	margin-right: 1em;
 }
 
 .projects {
